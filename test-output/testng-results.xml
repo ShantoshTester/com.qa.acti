@@ -1,69 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-28T07:56:32 IST" name="Default suite" finished-at="2023-04-28T07:57:19 IST" duration-ms="46190">
+  <suite started-at="2023-05-02T08:10:44 IST" name="Default suite" finished-at="2023-05-02T08:11:05 IST" duration-ms="21016">
     <groups>
     </groups>
-    <test started-at="2023-04-28T07:56:32 IST" name="Default test" finished-at="2023-04-28T07:57:19 IST" duration-ms="46190">
+    <test started-at="2023-05-02T08:10:44 IST" name="Default test" finished-at="2023-05-02T08:11:05 IST" duration-ms="21016">
       <class name="com.acti.testcase.LoginPageTests">
-        <test-method is-config="true" signature="preTest()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-04-28T07:56:33 IST" name="preTest" finished-at="2023-04-28T07:56:40 IST" duration-ms="7618" status="PASS">
+        <test-method is-config="true" signature="preTest()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-05-02T08:10:44 IST" name="preTest" finished-at="2023-05-02T08:10:52 IST" duration-ms="7747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preTest -->
-        <test-method signature="testActiImgDisplayed()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-04-28T07:56:40 IST" name="testActiImgDisplayed" finished-at="2023-04-28T07:56:40 IST" duration-ms="98" status="PASS">
+        <test-method signature="initApplication()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-05-02T08:10:52 IST" name="initApplication" finished-at="2023-05-02T08:10:58 IST" duration-ms="6180" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testActiImgDisplayed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-04-28T07:56:40 IST" name="tearDown" finished-at="2023-04-28T07:56:40 IST" duration-ms="194" status="PASS">
+        </test-method> <!-- initApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-05-02T08:10:58 IST" name="tearDown" finished-at="2023-05-02T08:10:59 IST" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="preTest()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-04-28T07:56:40 IST" name="preTest" finished-at="2023-04-28T07:56:51 IST" duration-ms="10773" status="PASS">
+        <test-method is-config="true" signature="preTest()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-05-02T08:10:59 IST" name="preTest" finished-at="2023-05-02T08:11:05 IST" duration-ms="6471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preTest -->
-        <test-method signature="testForgotPasswordDisplayed()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-04-28T07:56:51 IST" name="testForgotPasswordDisplayed" finished-at="2023-04-28T07:56:51 IST" duration-ms="62" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testForgotPasswordDisplayed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-04-28T07:56:51 IST" name="tearDown" finished-at="2023-04-28T07:56:52 IST" duration-ms="239" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="preTest()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-04-28T07:56:52 IST" name="preTest" finished-at="2023-04-28T07:57:02 IST" duration-ms="10530" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preTest -->
-        <test-method signature="testLoginFunction()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-04-28T07:57:02 IST" name="testLoginFunction" finished-at="2023-04-28T07:57:02 IST" duration-ms="250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginFunction -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-04-28T07:57:02 IST" name="tearDown" finished-at="2023-04-28T07:57:03 IST" duration-ms="256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="preTest()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-04-28T07:57:03 IST" name="preTest" finished-at="2023-04-28T07:57:09 IST" duration-ms="6278" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preTest -->
-        <test-method signature="testLoginInvalidCredientials()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-04-28T07:57:09 IST" name="testLoginInvalidCredientials" finished-at="2023-04-28T07:57:12 IST" duration-ms="3282" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginInvalidCredientials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-04-28T07:57:12 IST" name="tearDown" finished-at="2023-04-28T07:57:12 IST" duration-ms="169" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="preTest()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-04-28T07:57:12 IST" name="preTest" finished-at="2023-04-28T07:57:18 IST" duration-ms="6157" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preTest -->
-        <test-method signature="testLoginPageTitle()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-04-28T07:57:18 IST" name="testLoginPageTitle" finished-at="2023-04-28T07:57:18 IST" duration-ms="9" status="PASS">
+        <test-method signature="testLoginPageTitle()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-05-02T08:11:05 IST" name="testLoginPageTitle" finished-at="2023-05-02T08:11:05 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-04-28T07:57:18 IST" name="tearDown" finished-at="2023-04-28T07:57:19 IST" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testcase.LoginPageTests@434a63ab]" started-at="2023-05-02T08:11:05 IST" name="tearDown" finished-at="2023-05-02T08:11:05 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
